@@ -1,0 +1,3 @@
+C:/Pragma/CLion 2023.2.2/Simply2dGame/cmake-build-debug/CMakeFiles/Simply2dGame.dir
+C:/Pragma/CLion 2023.2.2/Simply2dGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Pragma/CLion 2023.2.2/Simply2dGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
