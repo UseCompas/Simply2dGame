@@ -55,6 +55,30 @@ build CMakeFiles/Simply2dGame.dir/main.cpp.obj: CXX_COMPILER__Simply2dGame_unsca
   OBJECT_DIR = CMakeFiles\Simply2dGame.dir
   OBJECT_FILE_DIR = CMakeFiles\Simply2dGame.dir
 
+build CMakeFiles/Simply2dGame.dir/Game.cpp.obj: CXX_COMPILER__Simply2dGame_unscanned_Debug C$:/Pragma/CLion$ 2023.2.2/Simply2dGame/Game.cpp || cmake_object_order_depends_target_Simply2dGame
+  DEP_FILE = CMakeFiles\Simply2dGame.dir\Game.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Simply2dGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\Simply2dGame.dir
+
+build CMakeFiles/Simply2dGame.dir/Entity.cpp.obj: CXX_COMPILER__Simply2dGame_unscanned_Debug C$:/Pragma/CLion$ 2023.2.2/Simply2dGame/Entity.cpp || cmake_object_order_depends_target_Simply2dGame
+  DEP_FILE = CMakeFiles\Simply2dGame.dir\Entity.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Simply2dGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\Simply2dGame.dir
+
+build CMakeFiles/Simply2dGame.dir/Field.cpp.obj: CXX_COMPILER__Simply2dGame_unscanned_Debug C$:/Pragma/CLion$ 2023.2.2/Simply2dGame/Field.cpp || cmake_object_order_depends_target_Simply2dGame
+  DEP_FILE = CMakeFiles\Simply2dGame.dir\Field.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Simply2dGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\Simply2dGame.dir
+
+build CMakeFiles/Simply2dGame.dir/Point.cpp.obj: CXX_COMPILER__Simply2dGame_unscanned_Debug C$:/Pragma/CLion$ 2023.2.2/Simply2dGame/Point.cpp || cmake_object_order_depends_target_Simply2dGame
+  DEP_FILE = CMakeFiles\Simply2dGame.dir\Point.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Simply2dGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\Simply2dGame.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Simply2dGame
@@ -63,7 +87,7 @@ build CMakeFiles/Simply2dGame.dir/main.cpp.obj: CXX_COMPILER__Simply2dGame_unsca
 #############################################
 # Link the executable Simply2dGame.exe
 
-build Simply2dGame.exe: CXX_EXECUTABLE_LINKER__Simply2dGame_Debug CMakeFiles/Simply2dGame.dir/main.cpp.obj
+build Simply2dGame.exe: CXX_EXECUTABLE_LINKER__Simply2dGame_Debug CMakeFiles/Simply2dGame.dir/main.cpp.obj CMakeFiles/Simply2dGame.dir/Game.cpp.obj CMakeFiles/Simply2dGame.dir/Entity.cpp.obj CMakeFiles/Simply2dGame.dir/Field.cpp.obj CMakeFiles/Simply2dGame.dir/Point.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Simply2dGame.dir
